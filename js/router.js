@@ -28,6 +28,7 @@ Todos.TodosCompletedRoute = Ember.Route.extend({
 }); 
 
 
+
 Todos.TodosIndexRoute = Ember.Route.extend({ 
   model: function() { 
     return this.modelFor('todos'); 
